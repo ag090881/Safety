@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Facilities Service Management" name="Facilities Service Management">a69d02137f232200ee2e108c3ffa9136</category>
+        <collection>x_299305_safety_issue</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <description/>
+        <event_name/>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Number: ${number}</p>
+<p>Opened by: ${opened_by}</p>
+<p>Due date: ${due_date}</p>
+<p>Short description: ${short_description}</p>
+<p>Click to view ticket ${URI_REF}</p>
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>New Safety Issue</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>opened_by</recipient_fields>
+        <recipient_groups/>
+        <recipient_users>6816f79cc0a8016401c5a33be04be441</recipient_users>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>New Safety Issue ${number}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-16 09:45:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>77bf97d3db522300eeeeab7dca9619c9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>New Safety Issue</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Safety" source="x_299305_safety">34330fd3db122300eeeeab7dca9619d5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">34330fd3db122300eeeeab7dca9619d5</sys_scope>
+        <sys_update_name>sysevent_email_action_77bf97d3db522300eeeeab7dca9619c9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-16 09:49:37</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>
